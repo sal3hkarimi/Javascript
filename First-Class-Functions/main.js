@@ -1,3 +1,13 @@
+var func = function passAsArg(value, callback) {
+  return callback(value);
+};
+
+func("value", console.log);
+
+/**
+ * ------------------------------------------------
+ * **/
+
 const add = function (a, b) {
   return a + b;
 };
